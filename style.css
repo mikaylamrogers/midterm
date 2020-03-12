@@ -16,14 +16,20 @@ img:hover {
 
 .listen {
   position: relative;
-  top: 260px;
-  left: 320px;
+  top: 530px;
+  left: 590px;
 }
 
 .vision {
   position: relative;
-  top: -100px;
-  left: 340px;
+  top: 270px;
+  left: 580px;
+}
+
+.cover {
+  position: relative;
+  top: -210px;
+  left: 180px;
 }
 
 .home {
@@ -43,4 +49,8 @@ a {
     text-decoration: none;
     font-family: 'Amiri', serif;
     color: white;
+}
+
+.cove {
+  font-family: 'Dorsa', sans-serif;
 }
