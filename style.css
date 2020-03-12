@@ -32,9 +32,9 @@ img:hover {
   left: 180px;
 }
 
-.home {
+/* .home {
   color: white;
-}
+} */
 
 p {
   position: relative;
@@ -53,4 +53,5 @@ a {
 
 .cove {
   font-family: 'Dorsa', sans-serif;
+  font-size: 45px;
 }
