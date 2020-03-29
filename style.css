@@ -37,6 +37,13 @@ img:hover {
   left: -390px;
 }
 
+.shoptitle {
+  box-sizing: border-box;
+  position: relative;
+  top: -200px;
+  left: 420px;
+}
+
 .home {
   position: absolute;
   width: 30%;
