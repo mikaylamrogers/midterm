@@ -12,9 +12,9 @@ nav ul {
     padding: 50px;
 }
 
-/* img:hover {
+img:hover {
   transform: scaleX(-1);
-} */
+}
 
 .listen {
   box-sizing: border-box;
