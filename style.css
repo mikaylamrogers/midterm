@@ -20,26 +20,29 @@ nav ul {
   box-sizing: border-box;
   position: relative;
   top: 750px;
-  left: 550px;
+  left: -430px;
 }
 
 .vision {
   box-sizing: border-box;
   position: relative;
-  top: 320px;
-  left: 530px;
+  top: 290px;
+  left: -430px;
 }
 
 .cover {
   box-sizing: border-box;
   position: relative;
-  top: 670px;
-  left: 580px;
+  top: 620px;
+  left: -390px;
 }
 
-/* .home {
-  color: white;
-} */
+.home {
+  position: fixed;
+  width: 30%;
+  top: -90px;
+  text-align: left;
+}
 
 p {
   box-sizing: border-box;
@@ -90,12 +93,6 @@ figure {
 }
 
 @media only screen and (max-width: 469px) {
-/* .home {
-  position: fixed;
-  width: 50%;
-  top: -90px;
-  text-align: left;
-} */
 
 body {
   font-family: 'Amiri', serif;
