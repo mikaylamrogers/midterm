@@ -38,7 +38,7 @@ nav ul {
 }
 
 .home {
-  position: fixed;
+  position: absolute;
   width: 30%;
   top: -90px;
   text-align: left;
@@ -82,8 +82,10 @@ img {
 }
 
 figure {
+  font-family: 'Amiri', serif;
+  font-size: 25px;
   color: blue;
-  max-width: 35%;
+  max-width: 100%;
   margin: 70px;
   display: flex;
   flex-direction: column;
@@ -92,40 +94,10 @@ figure {
   align-content: center;
 }
 
-@media only screen and (max-width: 469px) {
-
-body {
-  font-family: 'Amiri', serif;
-  text-align: center;
-  }
-
-h1 {
-  font-family: 'Amiri', serif;
-  font-size: 100px;
-}
-
-  img {
-    max-width: 100%;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-
-  figure {
-    margin: 50px;
-    display: inline-block;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-  }
-
-}
-
 @media only screen and (min-width: 1084px) {
   .home {
     position: fixed;
-    width: 15%;
+    width: 20%;
     top: -90px;
     text-align: left;
   }
@@ -144,7 +116,7 @@ h1 {
   }
 
   img {
-    max-width: 80%;
+    max-width: 50%;
     margin-bottom: 10px;
   }
 
@@ -161,4 +133,35 @@ h1 {
 
   figcaption {
     text-align: center;
+  }
+
+  @media only screen and (max-width: 469px) {
+
+  body {
+    font-family: 'Amiri', serif;
+    text-align: center;
+    }
+
+  h1 {
+    font-family: 'Amiri', serif;
+    font-size: 100px;
+  }
+
+    img {
+      max-width: 100%;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    figure {
+      margin: 50px;
+      text-align: center;
+      display: inline-block;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+
   }
